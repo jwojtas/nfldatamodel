@@ -1,0 +1,19 @@
+name: nfl-stats
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - xgboost
+  - joblib
+  - pyarrow
+  - requests
+  - tqdm
+  - pip
+  - pip:
+      - nflreadpy
+      - nfl_data_py
+      - nflfastpy
+      - rpy2
